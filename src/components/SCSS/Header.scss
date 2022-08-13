@@ -1,0 +1,17 @@
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+.app-header{
+    width: max-content;
+    position: relative;
+    left: 0px;
+    transition: .5s ease;
+
+    @media screen and (max-width: #{$tablet-width}){
+        font-size: 15px;
+    }
+    @media screen and (min-width: #{$desktop-width}){
+        font-size: 75px;
+    }
+}
+
