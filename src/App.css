@@ -2,13 +2,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: none;
 }
+
 .App {
   text-align: center;
+  
 }
 
 .main-container{
   position: relative;
-  width: 80vw;
+  width: 50vw;
   margin: 0px auto;
+  /* border: 1px solid black; */
+  min-width: 250px;
+}
+.top-container{
+  position: relative;
 }
