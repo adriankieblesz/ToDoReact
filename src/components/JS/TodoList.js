@@ -17,7 +17,7 @@ const handleDelete = (id) => {
                     return <Todo 
                                 key={index}
                                 todo = {todo}
-                                handleDelete={handleDelete}
+                                handleDelete={() => handleDelete(index)}
                             />;
                 })}
             </ul>

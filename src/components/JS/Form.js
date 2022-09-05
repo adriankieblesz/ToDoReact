@@ -105,6 +105,10 @@ const Form = () => {
                     onChange={handleSetPriorityState}
                 />
             </div>
+            <button className="addTodo">
+                <span className="add-icon"></span>
+                Add
+            </button>
         </form>
     );
 }

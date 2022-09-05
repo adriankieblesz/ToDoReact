@@ -157,3 +157,30 @@ textarea{
         transform: translateY(0);
     }
 }
+
+.addTodo{
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+    padding: 5px 10px;
+    font-weight: bold;
+    float: right;
+    margin-right: 5%;
+    background-color: #ace6ae;
+    border-radius: 5px;
+    transition: .2s ease-out;
+    color: rgb(92, 88, 88);
+
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-10px);
+        color: black;
+    }
+
+    .add-icon{
+        background: url(../../icons/icon1.png);
+        background-size: cover;
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+}
